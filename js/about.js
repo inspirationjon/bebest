@@ -15,7 +15,9 @@ const renderTeamMembers = (data) => {
 	data.forEach((row) => {
 		// Creates elements
 		const newTeamMemberItem = document.createElement('li');
+		const newTeamMemberFigure = document.createElement('figure');
 		const newTeamMemberItemAvatar = document.createElement('img');
+		const newTeamMemberFigcaption = document.createElement('figcaption');
 		const newTeamMemberItemHeading = document.createElement('h3');
 		const newTeamMemberItemDescription = document.createElement('p');
 
@@ -36,9 +38,11 @@ const renderTeamMembers = (data) => {
 		newTeamMemberItemDescription.textContent = row.position;
 
 		// Appends to parent elements
-		newTeamMemberItem.appendChild(newTeamMemberItemAvatar);
-		newTeamMemberItem.appendChild(newTeamMemberItemHeading);
-		newTeamMemberItem.appendChild(newTeamMemberItemDescription);
+		newTeamMemberFigure.appendChild(newTeamMemberItemAvatar);
+		newTeamMemberFigure.appendChild(newTeamMemberFigcaption);
+		newTeamMemberFigcaption.appendChild(newTeamMemberItemHeading);
+		newTeamMemberFigcaption.appendChild(newTeamMemberItemDescription);
+		newTeamMemberItem.appendChild(newTeamMemberFigure);
 		teamMembersFragment.appendChild(newTeamMemberItem);
 	});
 

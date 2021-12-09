@@ -432,9 +432,10 @@ img {
 }
 
 .hero-desc {
-	max-width: 669px;
+	max-width: 550px;
 	margin-bottom: 50px;
-	color: #808080;
+	font-size: 22px;
+	color: #606060;
 }
 
 .hero-list {
@@ -1009,8 +1010,14 @@ img {
 .aboutus-desc {
 	font-size: 18px;
 	font-weight: 500;
+	margin-bottom: 30px;
 	color: #323232;
 	text-align: center;
+}
+
+.aboutus-iframe {
+	display: block;
+	margin: 0 auto;
 }
 
 /* * * * * * * * * * * * * * * *  * * Leadership section */
