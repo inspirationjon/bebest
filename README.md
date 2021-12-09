@@ -6,7 +6,7 @@ I developed a website for the non-existing agency called "Be best". The company 
 
 ## Links
 
--   [GitHub Repository Link](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
--   [Netlify Link](https://github.com/matiassingers/awesome-readme)
+-   [GitHub Repository Link](https://github.com/inspirationjon/bebest)
+-   [Netlify Link](https://bebest-0011308.netlify.app/index.html)
 
 ## Home Page
