@@ -1236,6 +1236,7 @@ img {
 	width: 280px;
 	display: flex;
 	flex-direction: column;
+	outline: 0;
 }
 
 .contact-user-information {
@@ -1244,6 +1245,13 @@ img {
 	color: var(--main-color);
 	border: none;
 	border-bottom: solid 1px #808080;
+}
+
+.contact-user-information:placeholder-shown {
+	border-color: #cb5555;
+}
+.contact-user-information:not(:placeholder-shown) {
+	border-color: var(--main-color);
 }
 
 .contact-service {
@@ -1312,6 +1320,15 @@ img {
 	border: none;
 	border-bottom: 2px solid #808080;
 	resize: vertical;
+	outline: 0;
+}
+
+.contact-massage-text:placeholder-shown {
+	border-color: #cb5555;
+}
+
+.contact-massage-text:not(:placeholder-shown) {
+	border-color: var(--main-color);
 }
 
 .contact-form-btn {

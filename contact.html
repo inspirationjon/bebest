@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/normalize.css">
+		<link rel="stylesheet" href="./css/normalize.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 		<title>Contact us</title>
 	</head>
@@ -226,9 +226,9 @@
 							>
 								<a
 									class="conatct-form-left-link"
-									href="tel:+919876543210"
+									href="tel:+998974302071"
 								>
-									+91 98765 43210
+									+998 97 430 20 71
 								</a>
 							</span>
 
@@ -237,10 +237,10 @@
 							>
 								<a
 									class="conatct-form-left-link"
-									href="mailto:domain@paypal.com"
+									href="mailto:ilkhomjon.interview@gmail.com"
 									target="_blank"
 								>
-									domain@paypal.com
+									ilkhomjon.interview@gmail.com
 								</a>
 							</span>
 
@@ -281,6 +281,7 @@
 										type="text"
 										class="contact-user-information"
 										name="user_name"
+										placeholder="John"
 										required
 									/>
 								</span>
@@ -291,6 +292,7 @@
 										type="text"
 										class="contact-user-information"
 										name="user_surname"
+										placeholder="Doe"
 										required
 									/>
 								</span>
@@ -301,17 +303,20 @@
 										type="email"
 										class="contact-user-information"
 										name="user_mail"
+										placeholder="john.doe@gmail.com"
+										pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$"
 										required
 									/>
 								</span>
 
 								<span class="contact-user-input">
-									Phone (At least 9 numbers)
+									Phone (998 xx xxx xx xx)
 									<input
 										type="tel"
 										class="contact-user-information"
 										name="user_phone"
-										value="+"
+										placeholder="998 99 123 45 67"
+										pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$"
 										required
 									/>
 								</span>
@@ -411,9 +416,9 @@
 								</span>
 
 								<textarea
+									class="contact-massage-text"
 									rows="1"
 									name="user_massage"
-									class="contact-massage-text"
 									placeholder="Write your message..."
 								></textarea>
 							</div>

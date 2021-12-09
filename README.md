@@ -35,6 +35,7 @@ The website overall consists of 7 fully-responsive pages:
 -   All semantic tags were used inluding (section, header, footer, table, figure, figcaption and etc.).
 -   All pages are responsive untill the smallest sized device of 320px recommended by Chrome browser.
 -   Open source font "Inter" was used in entire project.
+-   Regular expressions were used to validate inputs.
 
 ## Contents
 
