@@ -1236,7 +1236,6 @@ img {
 	width: 280px;
 	display: flex;
 	flex-direction: column;
-	outline: 0;
 }
 
 .contact-user-information {
@@ -1245,12 +1244,17 @@ img {
 	color: var(--main-color);
 	border: none;
 	border-bottom: solid 1px #808080;
+	outline: 0;
 }
 
 .contact-user-information:placeholder-shown {
 	border-color: #cb5555;
 }
 .contact-user-information:not(:placeholder-shown) {
+	border-color: var(--main-color);
+}
+
+.contact-user-information:focus {
 	border-color: var(--main-color);
 }
 
@@ -1328,6 +1332,10 @@ img {
 }
 
 .contact-massage-text:not(:placeholder-shown) {
+	border-color: var(--main-color);
+}
+
+.contact-massage-text:focus {
 	border-color: var(--main-color);
 }
 

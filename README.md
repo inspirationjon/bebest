@@ -28,6 +28,7 @@ The website overall consists of 7 fully-responsive pages:
 -   JS is used to make toggling hamburger effect in header part.
 -   JS is used to render DOM elements in almost all pages.
 -   JS is used to validate inputs of submit form in contact page.
+-   JS is used to make loading effect.
 
 ## Features
 
